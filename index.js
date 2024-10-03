@@ -14,6 +14,7 @@ app.get("/sobre", function (req, res) {
 
 app.get("/erro", function (req, res) {
   res.sendFile(__dirname + "/src/views/404.html");
+  // res.sendFile(__dirname + "/src/views/404.html");
 });
 
 app.listen(PORT, () => {
